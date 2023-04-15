@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1D5C599-668B-38DD-8091-F0E7B7D070CF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ExpressionApp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ExpressionApp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ExpressionApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=%PATH%;C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/ExpressionApp/../external/opencv/bin</LocalDebuggerEnvironment>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\utils;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\glm\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\nvar\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\Imgui\imgui-docking;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\nlohmann\json\single_include\nlohmann;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\GLAD\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\GLFW\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\opencv\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\opencv\include\opencv2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;_ENABLE_UI;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;_ENABLE_UI;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\utils;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\glm\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\nvar\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\Imgui\imgui-docking;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\nlohmann\json\single_include\nlohmann;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\GLAD\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\GLFW\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\opencv\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\opencv\include\opencv2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\utils;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\glm\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\nvar\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\Imgui\imgui-docking;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\nlohmann\json\single_include\nlohmann;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\GLAD\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\..\external\GLFW\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\opencv\include;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\opencv\include\opencv2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glfw3.lib;GLAD.lib;opengl32.lib;C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\opencv\lib\opencv_world346.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/ExpressionApp/../external/GLAD/lib;C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/ExpressionApp/../external/GLAD/lib/$(Configuration);C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/ExpressionApp/../external/GLFW/lib;C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/ExpressionApp/../external/GLFW/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/build/samples/ExpressionApp/Release/ExpressionApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/build/Release/ExpressionApp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/ExpressionApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS -BC:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/build --check-stamp-file C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/build/samples/ExpressionApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\build\samples\ExpressionApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionApp.cpp" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\MeshRenderer.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\MeshRenderer.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\DirectoryIterator.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\DirectoryIterator.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\GLMaterial.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\GLMaterial.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\GLMesh.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\GLMesh.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\GLShaders.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\GLShaders.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\GLSpectrum.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\SimpleFaceModel.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\OpenGLMeshRenderer.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\OpenGLMeshRenderer.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\FaceIO.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\BackEndOpenGL\FaceIO.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\nvARProxy.cpp" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\nvCVImageProxy.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionAppUI.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionAppUI.cpp" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imgui.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imconfig.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imgui_internal.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imstb_textedit.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imstb_rectpack.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imstb_truetype.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\backends\imgui_impl_glfw.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\misc\cpp\imgui_stdlib.h" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imgui_tables.cpp" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imgui.cpp" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\external\Imgui\imgui-docking\misc\cpp\imgui_stdlib.cpp" />
+    <ResourceCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\build\ZERO_CHECK.vcxproj">
+      <Project>{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

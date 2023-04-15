@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/ExpressionApp/CMakeLists.txt

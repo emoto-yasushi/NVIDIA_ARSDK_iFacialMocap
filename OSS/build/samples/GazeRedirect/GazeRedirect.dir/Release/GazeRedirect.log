@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/GazeRedirect/CMakeLists.txt
+cl : Command line warning D9002: ignoring unknown option '-fpermissive'
+  GazeEngine.cpp
+  GazeRedirect.cpp
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\GazeRedirect\GazeRedirect.cpp(190): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(1184): note: see declaration of 'getenv'
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\GazeRedirect\GazeRedirect.cpp(264): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\time.h(525): note: see declaration of 'localtime'
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\GazeRedirect\GazeRedirect.cpp(483): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\GazeRedirect\GazeRedirect.cpp(598): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h(2240): note: see declaration of 'sscanf'
+  RenderingUtils.cpp
+  FeatureVertexName.cpp
+  nvARProxy.cpp
+  nvCVImageProxy.cpp
+  Generating Code...
+     Creating library C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/build/samples/GazeRedirect/Release/GazeRedirect.lib and object C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/build/samples/GazeRedirect/Release/GazeRedirect.exp
+  GazeRedirect.vcxproj -> C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\build\Release\GazeRedirect.exe

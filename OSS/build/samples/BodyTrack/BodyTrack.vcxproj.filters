@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\BodyTrack\BodyEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\BodyTrack\BodyTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\utils\RenderingUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\nvar\src\nvARProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\nvar\src\nvCVImageProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\BodyTrack\BodyEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\utils\RenderingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\BodyTrack\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B912C3BC-0177-3022-B4BC-69044466C8CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C2505916-041D-39BA-B1DF-74B2DD6225ED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

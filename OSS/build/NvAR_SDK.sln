@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{F07FC7E5-4D8D-3405-849A-09C7012697CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D4ED305-832A-3477-85C9-BF3110906433} = {6D4ED305-832A-3477-85C9-BF3110906433}
+		{E1D5C599-668B-38DD-8091-F0E7B7D070CF} = {E1D5C599-668B-38DD-8091-F0E7B7D070CF}
+		{0B00D838-BACB-3757-8477-CD819901E173} = {0B00D838-BACB-3757-8477-CD819901E173}
+		{6C8C8662-FD60-3D70-AF2B-5361FB95B4A1} = {6C8C8662-FD60-3D70-AF2B-5361FB95B4A1}
+		{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F} = {C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BodyTrack", "samples\BodyTrack\BodyTrack.vcxproj", "{6D4ED305-832A-3477-85C9-BF3110906433}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F} = {C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExpressionApp", "samples\ExpressionApp\ExpressionApp.vcxproj", "{E1D5C599-668B-38DD-8091-F0E7B7D070CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F} = {C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceTrack", "samples\FaceTrack\FaceTrack.vcxproj", "{0B00D838-BACB-3757-8477-CD819901E173}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F} = {C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GazeRedirect", "samples\GazeRedirect\GazeRedirect.vcxproj", "{6C8C8662-FD60-3D70-AF2B-5361FB95B4A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F} = {C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F07FC7E5-4D8D-3405-849A-09C7012697CD}.Release|x64.ActiveCfg = Release|x64
+		{6D4ED305-832A-3477-85C9-BF3110906433}.Release|x64.ActiveCfg = Release|x64
+		{6D4ED305-832A-3477-85C9-BF3110906433}.Release|x64.Build.0 = Release|x64
+		{E1D5C599-668B-38DD-8091-F0E7B7D070CF}.Release|x64.ActiveCfg = Release|x64
+		{E1D5C599-668B-38DD-8091-F0E7B7D070CF}.Release|x64.Build.0 = Release|x64
+		{0B00D838-BACB-3757-8477-CD819901E173}.Release|x64.ActiveCfg = Release|x64
+		{0B00D838-BACB-3757-8477-CD819901E173}.Release|x64.Build.0 = Release|x64
+		{6C8C8662-FD60-3D70-AF2B-5361FB95B4A1}.Release|x64.ActiveCfg = Release|x64
+		{6C8C8662-FD60-3D70-AF2B-5361FB95B4A1}.Release|x64.Build.0 = Release|x64
+		{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}.Release|x64.ActiveCfg = Release|x64
+		{C45E1B75-C1F1-3C51-A2B9-14C892D45B7F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {090B80F8-0AD1-3C42-8AB2-3B207E8EAD15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

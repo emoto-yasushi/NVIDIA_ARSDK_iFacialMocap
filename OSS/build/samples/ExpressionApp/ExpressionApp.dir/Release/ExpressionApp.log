@@ -1,0 +1,50 @@
+﻿  Building Custom Rule C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/samples/ExpressionApp/CMakeLists.txt
+  ExpressionApp.cpp
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionApp.cpp(1155): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionApp.cpp(1167): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionApp.cpp(1276): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionApp.cpp(1284): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionApp.cpp(1288): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility(2903): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility(2917): note: see reference to function template instantiation 'void std::_Fill_unchecked1<_FwdIt,_Ty>(_FwdIt,_FwdIt,const _Ty &,std::false_type)' being compiled
+          with
+          [
+              _FwdIt=float *,
+              _Ty=int
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility(2925): note: see reference to function template instantiation 'void std::_Fill_unchecked<float*,_Ty>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+          with
+          [
+              _Ty=int,
+              _FwdIt=float *
+          ]
+  C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\samples\ExpressionApp\ExpressionApp.cpp(1412): note: see reference to function template instantiation 'void std::fill<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int>(_FwdIt,_FwdIt,const int &)' being compiled
+          with
+          [
+              _Ty=float,
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+  MeshRenderer.cpp
+  DirectoryIterator.cpp
+  GLMaterial.cpp
+  GLMesh.cpp
+  GLShaders.cpp
+  OpenGLMeshRenderer.cpp
+  FaceIO.cpp
+  nvARProxy.cpp
+  nvCVImageProxy.cpp
+  ExpressionAppUI.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_stdlib.cpp
+  Generating Code...
+     Creating library C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/build/samples/ExpressionApp/Release/ExpressionApp.lib and object C:/Users/emoto/Documents/hold/NVidia_FaceTrack/OpenSource_Release4_AddTCP/MAXINE-AR-SDK-master/MAXINE-AR-SDK-master/OSS/build/samples/ExpressionApp/Release/ExpressionApp.exp
+  ExpressionApp.vcxproj -> C:\Users\emoto\Documents\hold\NVidia_FaceTrack\OpenSource_Release4_AddTCP\MAXINE-AR-SDK-master\MAXINE-AR-SDK-master\OSS\build\Release\ExpressionApp.exe
