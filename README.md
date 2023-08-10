@@ -1,6 +1,6 @@
 # NVIDIA_ARSDK_iFacialMocap
 
-NVIDIA社が提供しているAR SDKを、iFacialMocapのiOSアプリと通信互換性を持たせるために変更を加えたリポジトリです。 iFacialMocapのiOSアプリは、多くの開発者のお世話になっているため、このコードを公開することにしました。 ライセンスは、もとのコードのライセンスを引き継いでMITライセンスです。私がGitHubの使い方に慣れていないため、あまり頻繁に更新はしないと思われます。
+NVIDIA社が提供しているAR SDK(https://github.com/NVIDIA/MAXINE-AR-SDK)を、iFacialMocapのiOSアプリと通信互換性を持たせるために変更を加えたリポジトリです。 iFacialMocapのiOSアプリは、多くの開発者のお世話になっているため、このコードを公開することにしました。 ライセンスは、もとのコードのライセンスを引き継いでMITライセンスです。私がGitHubの使い方に慣れていないため、あまり頻繁に更新はしないと思われます。
 
 <B>/OSS/samples/ExpressionApp内にある、run.batまたは、noConsoleRun.vbsをダブルクリックすることで起動します。</B> VMagicMirrorやLuppet、VSeeFace、VCapStudioなどiFacialMocapのiOSアプリと通信できるすべてのソフトウェアと通信できると思われます。
 
